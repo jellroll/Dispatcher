@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ProfileViewController.swift
 //  Dispatcher
 //
 //  Created by Jennifer Brisbane on 5/29/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
