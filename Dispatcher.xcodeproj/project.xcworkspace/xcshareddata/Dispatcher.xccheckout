@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B8BF67A-4CD2-47F5-83AE-9BAC965E228B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dispatcher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D5240F1486E44A2D63161297B18029110058257</key>
+		<string>https://github.com/jellroll/Dispatcher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dispatcher.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D5240F1486E44A2D63161297B18029110058257</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jellroll/Dispatcher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D5240F1486E44A2D63161297B18029110058257</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D5240F1486E44A2D63161297B18029110058257</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dispatcher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
