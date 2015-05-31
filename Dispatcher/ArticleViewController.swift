@@ -51,15 +51,20 @@ class ArticleViewController: UIViewController, UITableViewDataSource {
         
 /*
 Oldest article in New York Times archive
-http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=2&sort=oldest&api-key=3155df98a1dcbf4ecaf1128e8883a99b:15:65271311
+        http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=2&sort=oldest&api-key=####
         
 Articles containing "Romney" published on 01/01/2012
-http://api.nytimes.com/svc/search/v2/articlesearch.json?fq=romney&facet_field=day_of_week&begin_date=20120101&end_date=20120101&api-key=3155df98a1dcbf4ecaf1128e8883a99b:15:65271311
+        http://api.nytimes.com/svc/search/v2/articlesearch.json?fq=romney&facet_field=day_of_week&begin_date=20120101&end_date=20120101&api-key=####
 */
         
-//        let articlesURL = NSURL(string: "https://api.github.com/search/repositories?q=learn+swift+language:swift&sort=stars&order=desc")
 
-        let articlesURL = NSURL(string: "http://api.nytimes.com/svc/search/v2/articlesearch.json?fq=romney&facet_field=day_of_week&begin_date=20120101&end_date=20120101&api-key=3155df98a1dcbf4ecaf1128e8883a99b:15:65271311")
+
+        
+        let clientID = valueForAPIKey(keyname:"NYT_ARTICLE_SEARCH_API_CLIENT_ID")
+        
+
+        
+        let articlesURL = NSURL(string: "http://api.nytimes.com/svc/search/v2/articlesearch.json?fq=romney&facet_field=day_of_week&begin_date=20120101&end_date=20120101&api-key=" + clientID)
         
         
         // Optionally unwrap an NSData object with the contents of the URL.
